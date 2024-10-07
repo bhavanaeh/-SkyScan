@@ -6,16 +6,23 @@ SkyScan USA is designed to provide real-time tracking of flights across the Unit
 
 ### **Context**
 
-Navigating the complexities of air travel requires access to precise and timely information. SkyScan leverages the [OpenSky Network API] (https://openskynetwork.github.io/opensky-api/rest.html),to deliver real-time flight tracking specifically for the U.S. aviation market. The app caters to a broad audience, from casual travelers to aviation enthusiasts, offering them a reliable tool to monitor flights and collect very detailed information about these US aircrafts.
+Navigating the complexities of air travel requires access to precise and timely information. SkyScan leverages the [OpenSky Network API](https://openskynetwork.github.io/opensky-api/rest.html) ,to deliver real-time flight tracking specifically for the U.S. aviation market. The app caters to a broad audience, from casual travelers to aviation enthusiasts, offering them a reliable tool to monitor flights and collect very detailed information about these US aircrafts.
 
 In today's fast-paced world, the ability to access instant flight updates plays a crucial role in planning and operational efficiency. I built SkyScan primarily to fill a critical gap - which is access to both real-time and historical aviation data in an extremely user friendly way. The data collected from SkyScan can potentially be used to build various prediction systems to analyze aviation trends. Moreover, for professionals in the airline and logistics sectors, SkyScan can assist in managing and monitoring flights, thereby ensuring smooth operations. Thus, the app ensures accuracy and breadth of coverage, supporting the needs of a dynamic aviation environment.
 
 
 Developed as a part of the coursework (Final Project) for [CS 498 : End to End Data Science](https://daviddalpiaz.github.io/cs498-sp24/final-project.html) at the University of Illinois Urbana-Champaign by Bhavana Sundar (bsundar3)
 
+### **Key Features**
+
+- Live Flight Tracking: View real-time data of all airborne flights across the U.S., including interactive maps and detailed flight information.
+- Flight Search: Filter flights by ICAO24 numbers, call signs, departures, and arrivals, with the option to download historical flight data.
+- Aircraft Explorer: Look up U.S. commercial airlines and aircraft registered with ‘N’ numbers.
+- Historical Data Access: Query and download CSV files of past flights by airport and time range.
+
 ### Setup Instructions
 
-The web app is built primarily using the Shiny library in Python and extensively leverages the [OpenSky Network API] (https://openskynetwork.github.io/opensky-api/rest.html), thus it would be ideal to familirize yourself with the API and its limitations before running the code. To run the code, the first step is to have Python 3.11 installed on your system. You can directly download and install Python from [python.org](https://www.python.org/).
+The web app is built primarily using the Shiny library in Python and extensively leverages the [OpenSky Network API](https://openskynetwork.github.io/opensky-api/rest.html), thus it would be ideal to familirize yourself with the API and its limitations before running the code. To run the code, the first step is to have Python 3.11 installed on your system. You can directly download and install Python from [python.org](https://www.python.org/).
 
 Once you have Python installed, please clone this repository. You can then run the code by executing the following commands (from the root folder) in your terminal:
 
