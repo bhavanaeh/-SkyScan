@@ -75,4 +75,4 @@ The screenshot below shows how the data can be downloaded as a CSV file by click
 
 Finally the about tab gives a high level summary and usage of the overall application.
 
-**Note:** It is important to note that all data is fetched from the OpenSky Network API and is sucject to limitations imposed by the API. Thus, sometimes the application might not be able to render results as per requirements. It would be great if you could  lookup the restrictions and limitations of the API.
+**Note:** It is important to note that all data is fetched from the OpenSky Network API and is subject to limitations imposed by the API. Thus, sometimes the application might not be able to render results as per requirements. It would be great if you could  lookup the restrictions and limitations of the API.
