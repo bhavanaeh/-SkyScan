@@ -1,1 +1,1 @@
-# -SkyScan
+# SkyScan
